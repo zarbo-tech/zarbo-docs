@@ -2,7 +2,8 @@
 Документация по продукту
 
 
+**перед запуском**
+`npm install`
+
 **для запуска**
-`
-npm run docs:dev
-`
+`npm run docs:dev`
