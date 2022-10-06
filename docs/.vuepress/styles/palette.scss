@@ -1,0 +1,96 @@
+// you can change colors here
+$theme-color: #232451;
+$navbar-height: 62px;
+$font-family-fancy: 'Montserrat';
+$footer-color: #F1EEF8;
+$caption-color: #232347;
+$text-color: #3C3A3E;
+
+* {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $caption-color
+}
+
+p{
+  color: $text-color !important; 
+  font-weight: 300;
+}
+
+.nav-link {
+  span {
+    display: none;
+  }
+}
+
+.navbar {
+  background: #ffffff url('navbar.svg') center no-repeat;
+}
+
+.hero {
+ display: flex;
+ gap: 5rem !important;
+ height: 30rem !important;
+ background: url('hero2.svg') no-repeat;
+
+ img {
+  width: 30rem !important;
+  height: 30rem !important;
+ }
+}
+
+.search-box {
+  input {
+    padding-left: 3rem !important;
+    font-size: larger !important;
+    color: #807F82 !important;
+    border-radius: 8px !important;
+    width: 395px !important;
+    height: 60px !important;
+    background: #EDEDF0 url('search.svg') .5rem .5rem no-repeat !important; 
+  }
+  
+}
+
+.footer-wrapper {
+  background-color: $footer-color;
+}
+
+.footer-section {
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+
+  .footer-section__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .footer-section__column {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .footer-section__row {
+      display: flex;
+      flex-direction: row;
+      gap: .5rem;
+
+    }
+    .zarbo {
+      width: 180px;
+    }
+
+    .dzen {
+      width: 90px;
+    }
+  }
+}

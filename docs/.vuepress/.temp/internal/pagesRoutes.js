@@ -1,0 +1,18 @@
+export const pagesRoutes = [
+  ["v-8daa1a0e","/",{"title":"","icon":"home"},["/index.html","/README.md"]],
+  ["v-2e3eac9e","/slides.html",{"title":"Slide page","icon":"slides"},["/slides","/slides.md"]],
+  ["v-4e65ec78","/demo/disable.html",{"title":"Disabling layout and features","icon":"config"},["/demo/disable","/demo/disable.md"]],
+  ["v-c151bf32","/demo/encrypt.html",{"title":"Encryption Article","icon":"lock"},["/demo/encrypt","/demo/encrypt.md"]],
+  ["v-438ffe52","/demo/markdown.html",{"title":"Markdown Enhance","icon":"markdown"},["/demo/markdown","/demo/markdown.md"]],
+  ["v-6e19edb7","/demo/page.html",{"title":"Page Config","icon":"page"},["/demo/page","/demo/page.md"]],
+  ["v-1473bf53","/demo/",{"title":"Guides","icon":"creative"},["/demo/index.html","/demo/README.md"]],
+  ["v-fffb8e28","/guide/",{"title":"Guide","icon":"creative"},["/guide/index.html","/guide/README.md"]],
+  ["v-a959a44e","/modeling-docs/",{"title":"Все о моделировании"},["/modeling-docs/index.html","/modeling-docs/README.md"]],
+  ["v-5569d22a","/user-docs/basics-of-use.html",{"title":"Основы работы"},["/user-docs/basics-of-use","/user-docs/basics-of-use.md"]],
+  ["v-257d9eea","/user-docs/",{"title":"Введение"},["/user-docs/index.html","/user-docs/README.md"]],
+  ["v-177e1f06","/guide/bar/baz.html",{"title":"Baz","icon":"info"},["/guide/bar/baz","/guide/bar/baz.md"]],
+  ["v-5d5c2d30","/guide/bar/",{"title":"Bar feature","icon":"creative"},["/guide/bar/index.html","/guide/bar/README.md"]],
+  ["v-0b6fc5f8","/guide/foo/ray.html",{"title":"Ray","icon":"config"},["/guide/foo/ray","/guide/foo/ray.md"]],
+  ["v-5d5821d6","/guide/foo/",{"title":"Foo feature","icon":"config"},["/guide/foo/index.html","/guide/foo/README.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
+]

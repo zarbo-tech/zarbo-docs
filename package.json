@@ -1,19 +1,19 @@
 {
-  "name": "zarbo-docs",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "authors": {
-    "name": "zarbo",
-    "email": "info@zarbo.tech"
-  },
-  "repository": "/zarbo-docs",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
+  "name": "zarbo-doc",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs"
+  },
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "@vuepress/client": "2.0.0-beta.51",
+    "@vuepress/plugin-search": "^2.0.0-beta.51",
+    "vue": "^3.2.29",
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-theme-hope": "2.0.0-beta.106"
   }
 }
