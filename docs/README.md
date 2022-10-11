@@ -54,10 +54,10 @@ features:
     details: Switch between light and dark modes freely
     link: https://vuepress-theme-hope.github.io/v2/guide/interface/darkmode.html
 
-  - title: Full A11y support
+  - title: Поддержка форматов
     icon: support
-    details: Full support of accessibility in your site
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/accessibility.html
+    details: Obj, Glb/Gltf, Usdz, Fbx
+    link: #
 
   - title: Article Encryption
     icon: lock

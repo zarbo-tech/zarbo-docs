@@ -8,7 +8,9 @@ $text-color: #3C3A3E;
 
 * {
   font-family: 'Montserrat';
-  font-weight: 400;
+  //font-weight: 200;
+  font-style: normal;
+  font-family: monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p{
   color: $text-color !important; 
-  font-weight: 300;
 }
 
 .nav-link {

@@ -9,7 +9,7 @@ export const pagesRoutes = [
   ["v-fffb8e28","/guide/",{"title":"Guide","icon":"creative"},["/guide/index.html","/guide/README.md"]],
   ["v-a959a44e","/modeling-docs/",{"title":"Все о моделировании"},["/modeling-docs/index.html","/modeling-docs/README.md"]],
   ["v-5569d22a","/user-docs/basics-of-use.html",{"title":"Основы работы"},["/user-docs/basics-of-use","/user-docs/basics-of-use.md"]],
-  ["v-257d9eea","/user-docs/",{"title":"Введение"},["/user-docs/index.html","/user-docs/README.md"]],
+  ["v-257d9eea","/user-docs/",{"title":"Руководство пользователя"},["/user-docs/index.html","/user-docs/README.md"]],
   ["v-177e1f06","/guide/bar/baz.html",{"title":"Baz","icon":"info"},["/guide/bar/baz","/guide/bar/baz.md"]],
   ["v-5d5c2d30","/guide/bar/",{"title":"Bar feature","icon":"creative"},["/guide/bar/index.html","/guide/bar/README.md"]],
   ["v-0b6fc5f8","/guide/foo/ray.html",{"title":"Ray","icon":"config"},["/guide/foo/ray","/guide/foo/ray.md"]],

@@ -5,7 +5,7 @@ export const enSidebar = sidebar({
     "",
     {
       icon: "note",
-      text: "Введение",
+      text: "Руководство пользователя",
       prefix: "user-docs/",
       link: "user-docs/",
       children: "structure",
@@ -17,19 +17,19 @@ export const enSidebar = sidebar({
       link: "modeling-docs/",
       children: "structure",
     },
-    {
-      icon: "discover",
-      text: "Demo",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "Docs",
-      icon: "note",
-      prefix: "guide/",
-      children: "structure",
-    },
+    // {
+    //   icon: "discover",
+    //   text: "Demo",
+    //   prefix: "demo/",
+    //   link: "demo/",
+    //   children: "structure",
+    // },
+    // {
+    //   text: "Docs",
+    //   icon: "note",
+    //   prefix: "guide/",
+    //   children: "structure",
+    // },
     "slides",
   ],
 });

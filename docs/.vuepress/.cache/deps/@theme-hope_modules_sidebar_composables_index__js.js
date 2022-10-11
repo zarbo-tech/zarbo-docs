@@ -5,7 +5,7 @@ import {
   setupSidebarItems,
   sidebarItemsSymbol,
   useSidebarItems
-} from "./chunk-44R2VIRL.js";
+} from "./chunk-2PQTGZYO.js";
 import "./chunk-4BT6XTJG.js";
 import "./chunk-IKAOH5UM.js";
 import "./chunk-6EMY7PL4.js";
