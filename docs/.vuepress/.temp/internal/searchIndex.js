@@ -14,6 +14,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Все о моделировании",
+    "headers": [
+      {
+        "level": 2,
+        "title": "foo",
+        "slug": "foo",
+        "link": "#foo",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "bar",
+        "slug": "bar",
+        "link": "#bar",
+        "children": []
+      }
+    ],
+    "path": "/admin-docs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Disabling layout and features",
     "headers": [],
     "path": "/demo/disable.html",
@@ -146,73 +168,29 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Все о моделировании",
-    "headers": [
-      {
-        "level": 2,
-        "title": "foo",
-        "slug": "foo",
-        "link": "#foo",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "bar",
-        "slug": "bar",
-        "link": "#bar",
-        "children": []
-      }
-    ],
-    "path": "/modeling-docs/",
+    "title": "1. Список терминов",
+    "headers": [],
+    "path": "/user-docs/chapter1.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Основы работы",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Авторизация и регистрация",
-        "slug": "авторизация-и-регистрация",
-        "link": "#авторизация-и-регистрация",
-        "children": []
-      }
-    ],
-    "path": "/user-docs/basics-of-use.html",
+    "title": "2. Авторизация и регистрация",
+    "headers": [],
+    "path": "/user-docs/chapter2.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Руководство пользователя",
+    "title": "3. Личный кабинет",
+    "headers": [],
+    "path": "/user-docs/chapter3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4. Управление продуктами",
     "headers": [
-      {
-        "level": 2,
-        "title": "Введение",
-        "slug": "введение",
-        "link": "#введение",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Список терминов",
-        "slug": "список-терминов",
-        "link": "#список-терминов",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Авторизация и регистрация",
-        "slug": "авторизация-и-регистрация",
-        "link": "#авторизация-и-регистрация",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Личный кабинет",
-        "slug": "личныи-кабинет",
-        "link": "#личныи-кабинет",
-        "children": []
-      },
       {
         "level": 2,
         "title": "Создание коллекции",
@@ -267,6 +245,35 @@ export const searchIndex = [
         "title": "Удаление продукта",
         "slug": "удаление-продукта",
         "link": "#удаление-продукта",
+        "children": []
+      }
+    ],
+    "path": "/user-docs/chapter4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. Просмотр объектов",
+    "headers": [],
+    "path": "/user-docs/chapter5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. Интеграция с сайтом",
+    "headers": [],
+    "path": "/user-docs/chapter6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Руководство пользователя",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Введение",
+        "slug": "введение",
+        "link": "#введение",
         "children": []
       }
     ],

@@ -3,6 +3,8 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /slides.html
   "v-2e3eac9e": () => import(/* webpackChunkName: "v-2e3eac9e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/slides.html.js").then(({ data }) => data),
+  // path: /admin-docs/
+  "v-58122686": () => import(/* webpackChunkName: "v-58122686" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/index.html.js").then(({ data }) => data),
   // path: /demo/disable.html
   "v-4e65ec78": () => import(/* webpackChunkName: "v-4e65ec78" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/demo/disable.html.js").then(({ data }) => data),
   // path: /demo/encrypt.html
@@ -15,10 +17,18 @@ export const pagesData = {
   "v-1473bf53": () => import(/* webpackChunkName: "v-1473bf53" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/demo/index.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
-  // path: /modeling-docs/
-  "v-a959a44e": () => import(/* webpackChunkName: "v-a959a44e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/modeling-docs/index.html.js").then(({ data }) => data),
-  // path: /user-docs/basics-of-use.html
-  "v-5569d22a": () => import(/* webpackChunkName: "v-5569d22a" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/basics-of-use.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter1.html
+  "v-54ef4f2a": () => import(/* webpackChunkName: "v-54ef4f2a" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter1.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter2.html
+  "v-56a427c9": () => import(/* webpackChunkName: "v-56a427c9" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter2.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter3.html
+  "v-58590068": () => import(/* webpackChunkName: "v-58590068" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter3.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter4.html
+  "v-5a0dd907": () => import(/* webpackChunkName: "v-5a0dd907" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter4.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter5.html
+  "v-5bc2b1a6": () => import(/* webpackChunkName: "v-5bc2b1a6" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter5.html.js").then(({ data }) => data),
+  // path: /user-docs/chapter6.html
+  "v-5d778a45": () => import(/* webpackChunkName: "v-5d778a45" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter6.html.js").then(({ data }) => data),
   // path: /user-docs/
   "v-257d9eea": () => import(/* webpackChunkName: "v-257d9eea" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/index.html.js").then(({ data }) => data),
   // path: /guide/bar/baz.html

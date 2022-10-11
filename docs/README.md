@@ -111,11 +111,11 @@ footer: <div class="footer-section">
               </div>
             </div> 
             <div class="footer-section__row">
-              <span> <a href="#"><img src="/assets/icon/WA.png"> </a></span>
-              <span> <a href="#"><img src="/assets/icon/TG.png"> </a></span>
-              <span> <a href="#"><img src="/assets/icon/email.png"> </a></span>
+              <span> <a href="https://wa.clck.bar/79518726155"><img src="/assets/icon/WA.png"> </a></span>
+              <span> <a href="https://t.me/zarbo_tech"><img src="/assets/icon/TG.png"> </a></span>
+              <span> <a href="mailto:info@zarbo.tech"><img src="/assets/icon/email.png"> </a></span>
             </div> 
-            <div><a href="#"><img src="dzen.svg" alt="DZEN" class="dzen"> </a></div>
+            <div><a href="https://dzen.ru/zarbo"><img src="dzen.svg" alt="DZEN" class="dzen"> </a></div>
           </div> 
         </div>
 ---

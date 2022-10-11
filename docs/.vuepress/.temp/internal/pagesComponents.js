@@ -5,6 +5,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /slides.html
   "v-2e3eac9e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e3eac9e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/slides.html.vue")),
+  // path: /admin-docs/
+  "v-58122686": defineAsyncComponent(() => import(/* webpackChunkName: "v-58122686" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/index.html.vue")),
   // path: /demo/disable.html
   "v-4e65ec78": defineAsyncComponent(() => import(/* webpackChunkName: "v-4e65ec78" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/demo/disable.html.vue")),
   // path: /demo/encrypt.html
@@ -17,10 +19,18 @@ export const pagesComponents = {
   "v-1473bf53": defineAsyncComponent(() => import(/* webpackChunkName: "v-1473bf53" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/demo/index.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/guide/index.html.vue")),
-  // path: /modeling-docs/
-  "v-a959a44e": defineAsyncComponent(() => import(/* webpackChunkName: "v-a959a44e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/modeling-docs/index.html.vue")),
-  // path: /user-docs/basics-of-use.html
-  "v-5569d22a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5569d22a" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/basics-of-use.html.vue")),
+  // path: /user-docs/chapter1.html
+  "v-54ef4f2a": defineAsyncComponent(() => import(/* webpackChunkName: "v-54ef4f2a" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter1.html.vue")),
+  // path: /user-docs/chapter2.html
+  "v-56a427c9": defineAsyncComponent(() => import(/* webpackChunkName: "v-56a427c9" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter2.html.vue")),
+  // path: /user-docs/chapter3.html
+  "v-58590068": defineAsyncComponent(() => import(/* webpackChunkName: "v-58590068" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter3.html.vue")),
+  // path: /user-docs/chapter4.html
+  "v-5a0dd907": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a0dd907" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter4.html.vue")),
+  // path: /user-docs/chapter5.html
+  "v-5bc2b1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bc2b1a6" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter5.html.vue")),
+  // path: /user-docs/chapter6.html
+  "v-5d778a45": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d778a45" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/chapter6.html.vue")),
   // path: /user-docs/
   "v-257d9eea": defineAsyncComponent(() => import(/* webpackChunkName: "v-257d9eea" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/user-docs/index.html.vue")),
   // path: /guide/bar/baz.html

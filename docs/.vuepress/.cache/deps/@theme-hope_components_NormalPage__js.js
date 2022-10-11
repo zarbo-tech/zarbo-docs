@@ -3,7 +3,7 @@ import {
 } from "./chunk-7GCEYNAP.js";
 import {
   useSidebarItems
-} from "./chunk-2PQTGZYO.js";
+} from "./chunk-T2C7UNM6.js";
 import {
   MarkdownContent_default
 } from "./chunk-BPXOLMLA.js";

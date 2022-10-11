@@ -215,7 +215,7 @@ A custom details container
 <li><a href="https://vuepress-theme-hope.github.io/v2/guide/markdown/demo.html" target="_blank" rel="noopener noreferrer">View Detail<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="stylize" tabindex="-1"><a class="header-anchor" href="#stylize" aria-hidden="true">#</a> Stylize</h4>
-<p>Donate Mr.Hope a cup of coffee. <Badge type="tip">Recommanded</Badge></p>
+<p>Donate Mr.Hope a cup of coffee. <em>Recommanded</em></p>
 <ul>
 <li><a href="https://vuepress-theme-hope.github.io/v2/guide/markdown/stylize.html" target="_blank" rel="noopener noreferrer">View Detail<ExternalLinkIcon/></a></li>
 </ul>

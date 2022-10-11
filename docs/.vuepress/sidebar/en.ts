@@ -12,9 +12,9 @@ export const enSidebar = sidebar({
     },
     {
       icon: "note",
-      text: "Все о моделировании",
-      prefix: "modeling-docs/",
-      link: "modeling-docs/",
+      text: "Руководство администратора",
+      prefix: "admin-docs/",
+      link: "admin-docs/",
       children: "structure",
     },
     // {
