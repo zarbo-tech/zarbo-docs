@@ -7,7 +7,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Slide page",
+    "title": "Презентация",
     "headers": [],
     "path": "/slides.html",
     "pathLocale": "/",

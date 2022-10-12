@@ -1,5 +1,5 @@
 ---
-title: Slide page
+title: Презентация
 icon: slides
 layout: Slide
 ---
@@ -10,424 +10,137 @@ layout: Slide
 
 <!-- .slide: data-transition="slide" -->
 
-## Slide Demo
+![Logo](/zarbo.svg)
 
 <!-- .element: class="r-fit-text" -->
 
-A simple slide demo and useful hints.
+Краткая документация пользователя
 
 <!-- .element: class="r-fit-text" -->
 
-> By Mr.Hope. Please scroll mousewheel down to the next slide
+> Пожалуйста покрутите колесико мыши вниз для смены слайда
 
 ---
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## Marking Slides
+### Краткая информация
 
 <!-- .element: class="r-fit-text" -->
+Сервис Zarbo предназначен для визуализации в **3D** и дополненной реальности объемных моделей. Zarbo позволяет организовать структурированное хранение объемных моделей, а также настраивать параметры их визуализации – специальные виджеты, которые можно встраивать на сайт или интернет-магазин.
 
-[👇](#/1/1)
-
---
+---
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## Marking Slides
+### Поддерживаемые форматы
 
-<!-- .element: class="r-fit-text" -->
+--
 
-Use `---` to mark horizontal slides
+<!-- .slide: data-auto-animate -->
+
+Загрузка модели доступна в формате
+
+1. Obj 
+2. Glb/Gltf 
+3. Usdz 
+4. Fbx
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `--` to sperate vertical slides in a horizontal slide.
+--
+
+<!-- .slide: data-transition="slide" data-auto-animate -->
+
+#### Ограничения
+
+<!-- .element: class="r-fit-text" -->
+
+Одна модель - **один файл**
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `<!-- .slide: ... -->` to add attributes to slide
+Не более 10000 полигонов и 25 Мб
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `<!-- .element: ... -->` to add attributes to the previous html element
+Отсутсвие натяжений текстур
 
 <!-- .element: class="fragment fade-in" -->
 
 ---
 
-<!-- .slide: data-transition="slide" data-auto-animate -->
+## Адаптив представления модели
 
-## Markdown
-
-<!-- .element: class="r-fit-text" -->
-
-You can use all kinds of markup in slides.
-
-<!-- .element: class="r-fit-text" -->
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Markdown
-
-You can use all kinds of markup in slides.
-
-### This is a H3
-
-Headings will transform to UPPERCASE by default.
-
-Here is paragraph with some **bold**, _italic_, ~~strikethrough~~ text and a [link](https://mrhope.site), and it can auto break itself so you don’t need to worry the length.
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Markdown
-
-You can use all kinds of markup in slides.
-
-List is `inline-block` by default.
-
-- Item
-- Item
-- Item
-
-1. Item 1
-1. Item 2
-1. Item 3
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Markdown
-
-You can use all kinds of markup in slides.
-
-Code block will get auto highlight if you enable `highlight` plugin.
-
-```js
-const a = 1;
-```
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Markdown
-
-You can use all kinds of markup in slides.
-
-You can also write math equation using tex syntax if you enable `math` plugin.
-
-$$
-J(\theta_0,\theta_1) = \sum_{i=0}
-$$
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Markdown
-
-You can use all kinds of markup in slides.
-
-⚠**Note**: Table, hr and other nonstandard Markdown syntax is not supported.
-
----
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Layout
-
-<!-- .element: class="r-fit-text" -->
-
---
-
-<!-- .slide: data-auto-animate  -->
-
-## Layout
-
-<!-- .element: class="r-fit-text" -->
-
-👆 The `r-fit-text` class makes text as large as possible without overflowing the slide.
-
---
-
-<!-- .slide: data-auto-animate  -->
-
-## Layout
-
-![Logo](/logo.svg)
-
-<!-- .element: class="r-stretch" -->
-
-👆 The `r-stretch` class helper lets you resize an element, like an image or video, to cover the remaining vertical space in a slide.
-
---
-
-<!-- .slide: data-auto-animate data-background-color="rgb(70, 70, 255)" -->
-
-## Layout
-
-### Background
-
-Cutom background by adding `data-background` attribute to slide.
-
----
-
-<!-- .slide: data-auto-animate -->
-
-## Fragment
-
-<!-- .element: class="r-fit-text" -->
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Fragment
-
-<!-- .element: class="r-fit-text" -->
-
-Fragments are used to highlight or incrementally reveal individual elements on a slide.
-
-Add `fragment` and animation class to element.
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Fragment
-
-### Animation class
-
-- `fade-in`
 <!-- .element: class="fragment fade-in" -->
 
-- `fade-out`
-<!-- .element: class="fragment fade-out" -->
+L. **Четкая модель**. Отображение на слабых платформах долгое время
 
-- `fade-up`
-<!-- .element: class="fragment fade-up" -->
+<!-- .element: class="fragment fade-in" -->
 
-<!-- list break -->
+М. **Средняя модель**. Чёткость трёхмерного изображения будет ниже.
 
-- `fade-down`
-<!-- .element: class="fragment fade-down" -->
+<!-- .element: class="fragment fade-in" -->
 
-- `fade-left`
-<!-- .element: class="fragment fade-left" -->
+S. **Низкая модель**. Малая чёткость, но отображается на любых устройствах.
 
-- `fade-right`
-<!-- .element: class="fragment fade-right" -->
+<!-- .element: class="fragment fade-in" -->
 
-<!-- list break -->
+---
 
-- `fade-in-then-out`
-<!-- .element: class="fragment fade-in-then-out" -->
+<!-- .slide: data-auto-animate -->
 
-- `fade-in-then-semi-out`
-<!-- .element: class="fragment fade-in-then-semi-out" -->
+## Возможность создания текстур
+
+Доступна возможность создания коллекции текстур (материалов)
 
 --
 
 <!-- .slide: data-auto-animate -->
 
-## Fragment
+## Виджеты
 
-### Animation class
+- Выбор иконки
+- Установка материала по умолчанию
+- Превью модели
+- Изменение размера в дополненной реальности
+- Управление камерой
+- и другие.
 
-- `grow`
-<!-- .element: class="fragment grow" -->
+---
 
-- `shrink`
-<!-- .element: class="fragment shrink" -->
+<!-- .slide: data-auto-animate -->
 
-- `strike`
-<!-- .element: class="fragment strike" -->
+## Настройка AR представления
 
-<!-- list break -->
+**Scene viewer/Web XR** Средство просмотра для системы Андроид, имеющее расширенный функционал
 
-- `highlight-red`
-<!-- .element: class="fragment highlight-red" -->
+<!-- .element: class="fragment fade-in" -->
 
-- `highlight-green`
-<!-- .element: class="fragment highlight-green" -->
+**Quick look** Средство просмотра для iOS
 
-- `highlight-blue`
-<!-- .element: class="fragment highlight-blue" -->
-
-<!-- list break -->
-
-- `highlight-current-red`
-<!-- .element: class="fragment highlight-current-red" -->
-
-- `highlight-current-green`
-<!-- .element: class="fragment highlight-current-green" -->
-
-- `highlight-current-blue`
-<!-- .element: class="fragment highlight-current-blue" -->
+<!-- .element: class="fragment fade-in" -->
 
 --
 
 <!-- .slide: data-auto-animate -->
 
-## Fragment
+## Просмотр моделей
 
-### Mutiple fragments
-
-Multiple fragments can be applied to the same element sequentially by wrapping it
-
-<span class="fragment fade-in">
-  <span class="fragment highlight-red">
-    <span class="fragment fade-out">
-      Fade in > Turn red > Fade out
-    </span>
-  </span>
-</span>
+Каждая отдельная коллекция продуктов содержит несколько `трёхмерных изображений`, загруженных в коллекцию. Посмотреть их можно из меню `коллекции` 
 
 --
 
 <!-- .slide: data-auto-animate -->
 
-## Fragment
+## Интеграция с сайтом
 
-### Order
-
-Order can be changed using the `data-fragment-index` attribute.
-
-Multiple elements can appear at the same index.
-
-- Appears last
-<!-- .element: class="fragment" data-fragment-index="3"-->
-
-- Appears second
-<!-- .element: class="fragment" data-fragment-index="2"-->
-
-<!-- list break -->
-
-- Appears first
-<!-- .element: class="fragment" data-fragment-index="1"-->
-
-- Appears second
-<!-- .element: class="fragment" data-fragment-index="2"-->
+⚠: Для размещения на внешнем сайте или интернет-магазине виджета 3D визуализации достаточно поместить на страницу интеграционный код 
 
 ---
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## Transition
-
-<!-- .element: class="r-fit-text" -->
-
---
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Transition
-
-<!-- .element: class="r-fit-text" -->
-
-Transition can be changed by setting the `transition` config option globally or `data-transition` attribute on specific slide.
-
-Possible values:
-
-- none
-- fade
-- slide
-
-<!-- list break -->
-
-- convex
-- concave
-- zoom
-
---
-
-<!-- .slide: data-auto-animate -->
-
-## Transition
-
-<!-- .element: class="r-fit-text" -->
-
-### Auto animate
-
-`data-auto-animate` can be added on nearby slides to make an animation on unchanged elements.
-
----
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Functions
-
-<!-- .element: class="r-fit-text" -->
-
---
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Functions
-
-<!-- .element: class="r-fit-text" -->
-
-### Code
-
-By enabling `highlight` plugin, you can highlight code blocks.
-
-You can use `[a-b|c-d]` syntax to highlight lines by steps.
-
-```js [1-2|3|4]
-let a = 1;
-let b = 2;
-let c = (x) => 1 + 2 + x;
-c(3);
-```
-
---
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Functions
-
-<!-- .element: class="r-fit-text" -->
-
-### Overview
-
-Press `Esc` or `O` to enter overview mode when the presentation is active
-
---
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Functions
-
-<!-- .element: class="r-fit-text" -->
-
-### Full Screen
-
-Press `F` or `F11` to enter fullscreen when the presentation is active
-
---
-
-<!-- .slide: data-transition="slide" data-auto-animate -->
-
-## Functions
-
-<!-- .element: class="r-fit-text" -->
-
-### Zoom
-
-Hold down the `alt` key (`ctrl` in Linux) and click on any element to zoom towards it.
-
-Click again to zoom back out.
-
----
-
-<!-- .element: class="r-fit-text" -->
-
-## The End
+## спасибо за внимание
 
 @slideend
