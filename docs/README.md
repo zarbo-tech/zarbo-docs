@@ -14,89 +14,40 @@ actions:
     link: /user-docs/
 
 features:
-  - title: Markdown Enhance
-    icon: markdown
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
-    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
-
-  - title: Slide page
-    icon: slides
-    details: Adding slide pages to display things you like
-    link: https://vuepress-theme-hope.github.io/v2/guide/layout/slides.html
-
-  - title: Layout enhancement
-    icon: layout
-    details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
-    link: https://vuepress-theme-hope.github.io/v2/guide/layout/
-
-  - title: Pageviews and comments
-    icon: comment
-    details: Start pageview statistics and comment support with Waline
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/comment.html
-
-  - title: Article information
-    icon: info
-    details: Add author, writing date, reading time, word count and other information to your article
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/page-info.html
-
-  - title: Blog support
-    icon: blog
-    details: Listing your articles with their dates, tags and categories with some awesome layouts
-    link: https://vuepress-theme-hope.github.io/v2/guide/blog/
-
-  - title: Custom theme color
-    icon: palette
-    details: Supports custom theme colors and allows users to switch between preset theme colors
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/theme-color.html
-
-  - title: Dark Mode
-    icon: contrast
-    details: Switch between light and dark modes freely
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/darkmode.html
 
   - title: Поддержка форматов
     icon: support
     details: Obj, Glb/Gltf, Usdz, Fbx
-    link: #
+    link: ./user-docs/chapter4.html#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8
 
-  - title: Article Encryption
+  - title: Панель администратора
     icon: lock
-    details: Encrypt you articles based on page links, so that only the one you want could see them
+    details: Защищенная панель администратора
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/encrypt.html
 
-  - title: Copy button
-    icon: copy
-    details: Copy codes with one click in code blocks
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/copy-code.html
-
-  - title: Image preview
+  - title: Предпросмотр моделей
     icon: pic
-    details: Support viewing, zooming, sharing your page images like a gallery
+    details: Манипуляция моделью поворачивать, приближать, отдалять
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/photo-swipe.html
 
-  - title: SEO enhancement
+  - title: Оптимизация
     icon: config
-    details: Optimize pages for search engines
+    details: Доступные модели оптимизированы для работы на различных устройствах
     link: https://vuepress-theme-hope.github.io/v2/guide/advanced/seo.html
 
-  - title: Sitemap
-    icon: sitemap
-    details: Generate a Sitemap for your site
-    link: https://vuepress-theme-hope.github.io/v2/guide/advanced/sitemap.html
-
-  - title: Feed support
+  - title: Поддержка
     icon: rss
-    details: Generate feed to allow users to subscribe it
+    details: Быстрая поддрежка пользователей через доступные мессендженеры
     link: https://vuepress-theme-hope.github.io/v2/guide/advanced/feed.html
 
-  - title: PWA support
+  - title: Поддержка устройств
     icon: mobile
-    details: Make your site more like an APP
+    details: Модели можно просматривать на мобильных устройствах
     link: https://vuepress-theme-hope.github.io/v2/guide/advanced/pwa.html
 
-  - title: More new features
+  - title: Дополнительные функции
     icon: more
-    details: Including icon support, fullscreen button, etc.
+    details: Ознакомиться с возможностями сервиса можно в руководстве пользователя
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
 copyright: false

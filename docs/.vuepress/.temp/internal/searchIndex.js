@@ -14,20 +14,34 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Все о моделировании",
+    "title": "2.Описание панели",
+    "headers": [],
+    "path": "/admin-docs/chapter1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3.Создание нового подписчика",
+    "headers": [],
+    "path": "/admin-docs/chapter2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4.Удаление подписчика",
+    "headers": [],
+    "path": "/admin-docs/chapter3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Руководство администратора",
     "headers": [
       {
         "level": 2,
-        "title": "foo",
-        "slug": "foo",
-        "link": "#foo",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "bar",
-        "slug": "bar",
-        "link": "#bar",
+        "title": "1.Вход в систему",
+        "slug": "_1-вход-в-систему",
+        "link": "#_1-вход-в-систему",
         "children": []
       }
     ],

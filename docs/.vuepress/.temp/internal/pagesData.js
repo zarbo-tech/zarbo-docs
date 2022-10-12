@@ -3,6 +3,12 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /slides.html
   "v-2e3eac9e": () => import(/* webpackChunkName: "v-2e3eac9e" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/slides.html.js").then(({ data }) => data),
+  // path: /admin-docs/chapter1.html
+  "v-8c871790": () => import(/* webpackChunkName: "v-8c871790" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/chapter1.html.js").then(({ data }) => data),
+  // path: /admin-docs/chapter2.html
+  "v-891d6652": () => import(/* webpackChunkName: "v-891d6652" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/chapter2.html.js").then(({ data }) => data),
+  // path: /admin-docs/chapter3.html
+  "v-85b3b514": () => import(/* webpackChunkName: "v-85b3b514" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/chapter3.html.js").then(({ data }) => data),
   // path: /admin-docs/
   "v-58122686": () => import(/* webpackChunkName: "v-58122686" */"F:/JavaScript/ZarboDocs-v2/zarbo-docs/docs/.vuepress/.temp/pages/admin-docs/index.html.js").then(({ data }) => data),
   // path: /demo/disable.html

@@ -1,6 +1,9 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":"","icon":"home"},["/index.html","/README.md"]],
   ["v-2e3eac9e","/slides.html",{"title":"Slide page","icon":"slides"},["/slides","/slides.md"]],
+  ["v-8c871790","/admin-docs/chapter1.html",{"title":"2.Описание панели"},["/admin-docs/chapter1","/admin-docs/chapter1.md"]],
+  ["v-891d6652","/admin-docs/chapter2.html",{"title":"3.Создание нового подписчика"},["/admin-docs/chapter2","/admin-docs/chapter2.md"]],
+  ["v-85b3b514","/admin-docs/chapter3.html",{"title":"4.Удаление подписчика"},["/admin-docs/chapter3","/admin-docs/chapter3.md"]],
   ["v-58122686","/admin-docs/",{"title":"Руководство администратора"},["/admin-docs/index.html","/admin-docs/README.md"]],
   ["v-4e65ec78","/demo/disable.html",{"title":"Disabling layout and features","icon":"config"},["/demo/disable","/demo/disable.md"]],
   ["v-c151bf32","/demo/encrypt.html",{"title":"Encryption Article","icon":"lock"},["/demo/encrypt","/demo/encrypt.md"]],
