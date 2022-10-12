@@ -1,4 +1,4 @@
-<template><div><h1 id="_3-создание-нового-подписчика" tabindex="-1"><a class="header-anchor" href="#_3-создание-нового-подписчика" aria-hidden="true">#</a> 3.Создание нового подписчика</h1>
+<template><div><h1 id="_3-создание-нового-подписчика" tabindex="-1"><a class="header-anchor" href="#_3-создание-нового-подписчика" aria-hidden="true">#</a> 3. Создание нового подписчика</h1>
 <p>Для создания нового подписчика требуется нажать на поле Subscriptions.</p>
 <p><img src="@source/admin-docs/img/image3.png" alt="" loading="lazy"></p>
 <p>Откроется список компаний-подписчиков системы. Чтобы добавить новую компанию, нужно нажать кнопку <strong>add Subscription</strong> в правом верхнем углу экрана.</p>

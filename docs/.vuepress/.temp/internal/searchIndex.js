@@ -14,21 +14,21 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "2.Описание панели",
+    "title": "2. Описание панели",
     "headers": [],
     "path": "/admin-docs/chapter1.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "3.Создание нового подписчика",
+    "title": "3. Создание нового подписчика",
     "headers": [],
     "path": "/admin-docs/chapter2.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "4.Удаление подписчика",
+    "title": "4. Удаление подписчика",
     "headers": [],
     "path": "/admin-docs/chapter3.html",
     "pathLocale": "/",
@@ -39,7 +39,7 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "1.Вход в систему",
+        "title": "1. Вход в систему",
         "slug": "_1-вход-в-систему",
         "link": "#_1-вход-в-систему",
         "children": []

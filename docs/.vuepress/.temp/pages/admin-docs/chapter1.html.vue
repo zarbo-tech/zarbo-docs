@@ -1,4 +1,4 @@
-<template><div><h1 id="_2-описание-панели" tabindex="-1"><a class="header-anchor" href="#_2-описание-панели" aria-hidden="true">#</a> 2.Описание панели</h1>
+<template><div><h1 id="_2-описание-панели" tabindex="-1"><a class="header-anchor" href="#_2-описание-панели" aria-hidden="true">#</a> 2. Описание панели</h1>
 <p>Панель администрирования состоит из сгруппированных строк, каждая из которых отвечает за свои функции администрирования.</p>
 <p><img src="@source/admin-docs/img/image2.png" alt="" loading="lazy"></p>
 <table>

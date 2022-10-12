@@ -16,6 +16,8 @@ export default hopeTheme({
 
   docsDir: "demo/theme-docs/src",
 
+  darkmode: "disable",
+
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   locales: {

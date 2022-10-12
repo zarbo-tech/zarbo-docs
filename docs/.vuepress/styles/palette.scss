@@ -25,7 +25,20 @@ p{
   span {
     display: none;
   }
+
+
 }
+
+.hero-info {
+
+  .primary{
+
+    &:hover {
+      background: linear-gradient(180deg, #E94309 2.42%, #E92A6E 36.36%, #A204E8 73.08%);
+    }
+  }
+}
+
 
 .navbar {
   background: #ffffff url('navbar.svg') center no-repeat;
@@ -70,7 +83,8 @@ p{
   .footer-section__bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 
     .footer-section__column {
       display: flex;
