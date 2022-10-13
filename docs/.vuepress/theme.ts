@@ -152,27 +152,6 @@ export default hopeTheme({
             type: "image/png",
           },
         ],
-        // shortcuts: [
-        //   {
-        //     name: "Demo",
-        //     short_name: "Demo",
-        //     url: "/demo/",
-        //     icons: [
-        //       {
-        //         src: "/assets/icon/guide-maskable.png",
-        //         sizes: "192x192",
-        //         purpose: "maskable",
-        //         type: "image/png",
-        //       },
-        //       {
-        //         src: "/assets/icon/guide-monochrome.png",
-        //         sizes: "192x192",
-        //         purpose: "monochrome",
-        //         type: "image/png",
-        //       },
-        //     ],
-        //   },
-        // ],
       },
     },
   },
