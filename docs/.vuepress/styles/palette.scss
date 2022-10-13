@@ -46,14 +46,14 @@ p {
 }
 
 .navbar {
-  background: #ffffff url("./assets/navbar.svg") center no-repeat;
+  background: #ffffff url("./navbar.svg") center no-repeat;
 }
 
 .hero {
   display: flex;
   gap: 5rem !important;
   height: 30rem !important;
-  background: url("./assets/hero2.svg") no-repeat;
+  background: url("./hero2.svg") no-repeat;
 
   img {
     width: 30rem !important;
@@ -69,7 +69,7 @@ p {
     border-radius: 8px !important;
     width: 395px !important;
     height: 60px !important;
-    background: #ededf0 url("./assets/search.svg") 0.5rem 0.5rem no-repeat !important;
+    background: #ededf0 url("./search.svg") 0.5rem 0.5rem no-repeat !important;
   }
 }
 
