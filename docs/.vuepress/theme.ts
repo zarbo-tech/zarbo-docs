@@ -36,16 +36,15 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
-
   },
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/admin-docs": ["Zarbo1Docs"],
       "/zh/demo/encrypt.html": ["1234"],
     },
   },
-  
+
   plugins: {
     comment: {
       /**
@@ -56,13 +55,11 @@ export default hopeTheme({
       // repoId: "R_kgDOG_Pt2A",
       // category: "Announcements",
       // categoryId: "DIC_kwDOG_Pt2M4COD69",
-
       /**
        * Using Twikoo
        */
       // provider: "Twikoo",
       // envId: "https://twikoo.ccknbc.vercel.app",
-
       /**
        * Using Waline
        */
