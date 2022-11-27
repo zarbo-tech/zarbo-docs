@@ -1,3 +1,7 @@
 node_modules
-Dockerfile
-docker-compose.yaml
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+
+#OS junk files
+*.DS_Store
